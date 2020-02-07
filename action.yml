@@ -7,7 +7,6 @@ inputs:
   slackMessage:
     description: 'The actual Slack message to be sent'
     required: true
-outputs:
 runs:
   using: 'node12'
   main: 'index.js'
