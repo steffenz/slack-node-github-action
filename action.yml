@@ -7,8 +7,8 @@ inputs:
   slackMessage:
     description: 'The actual Slack message to be sent'
     required: true
-  node_env:
-    description: 'Sets the node environment variable'
+  environment:
+    description: 'Allows you to change the enviroment (which might not be a good idea)'
     required: true
     default: 'production'
 runs:
