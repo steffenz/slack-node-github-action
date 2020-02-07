@@ -6,6 +6,7 @@ jobs:
     name: A job that posts to Slack
     steps:
     - name: Send message
+      id: slackmsg
       uses: steffenz/slack-node-github-action@v1
       with:
         slackToken: ${{ secrets.SLACK_TOKEN }}
