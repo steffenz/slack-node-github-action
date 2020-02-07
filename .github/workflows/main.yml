@@ -6,7 +6,7 @@ jobs:
     name: A job that posts to Slack
     steps:
     - name: Send message
-      uses: steffenz/slack-node-github-action
+      uses: steffenz/slack-node-github-action@v1
       with:
         slackToken: ${{ secrets.SLACK_TOKEN }}
         slackMessage: "I got a grey kitty, white one\nAnd a tabby too\nAnd a big orange guy\nWho put snakes in my shoes\nMad MC skills, leave ya struck\nAnd I roll with ma kitties\nAnd I'am hard as f***"
