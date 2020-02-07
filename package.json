@@ -1,0 +1,26 @@
+{
+  "name": "slack-node-github-action",
+  "version": "1.0.0",
+  "description": "A dead simple GitHub action that posts to your Slack using a secret.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steffenz/slack-node-github-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steffenz/slack-node-github-action/issues"
+  },
+  "homepage": "https://github.com/steffenz/slack-node-github-action#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

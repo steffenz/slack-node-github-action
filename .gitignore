@@ -1,0 +1,5 @@
+# We don't want our test variables to be exposed
+.env
+
+# We get our variables from the workflow file or secrets - therefore we dont need dotenv.
+node_modules/dotenv/
