@@ -7,6 +7,10 @@ inputs:
   slackMessage:
     description: 'The actual Slack message to be sent'
     required: true
+  node_env:
+    description: 'Sets the node environment variable'
+    required: true
+    default: 'production'
 runs:
   using: 'node12'
   main: 'index.js'

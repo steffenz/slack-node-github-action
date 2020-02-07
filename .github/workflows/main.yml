@@ -11,3 +11,4 @@ jobs:
       with:
         slackToken: ${{ secrets.SLACK_TOKEN }}
         slackMessage: "I got a grey kitty, white one\nAnd a tabby too\nAnd a big orange guy\nWho put snakes in my shoes\nMad MC skills, leave ya struck\nAnd I roll with ma kitties\nAnd I'am hard as f***"
+        node_env: 'production'
