@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/steffenz/slack-node-github-action#readme",
   "dependencies": {
-    "request": "^2.88.0"
-  },
-  "devDependencies": {
+    "request": "^2.88.0",
     "dotenv": "^8.2.0"
   }
 }
