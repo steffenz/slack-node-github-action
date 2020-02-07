@@ -1,5 +1,8 @@
 const request = require('request');
-require('dotenv').config(); 
+
+if(process.env.NODE_ENV === 'dev'){
+  require('dotenv').config(); 
+}
 
 const REQUIRED_ENV_VARS = [
   'SLACK_TOKEN',
