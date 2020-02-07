@@ -2,7 +2,7 @@ name: 'slack-node-github-action'
 description: 'A dead simple GitHub action that posts to your Slack using a secret.'
 inputs:
   slackToken:
-    description: 'The secret Slack token',
+    description: 'The secret Slack token'
     required: true
   slackMessage:
     description: 'The actual Slack message to be sent'
