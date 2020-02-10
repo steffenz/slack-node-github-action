@@ -5,8 +5,7 @@ const REQUIRED_ENV_VARS = [
   'SLACK_MESSAGE',
 ];
 
-var env = process.env.NODE_ENV || 'dev';
-if(env === 'dev'){  require('dotenv').config(); }
+if(process.env.NODE_ENV === 'dev'){  require('dotenv').config(); }
 
 REQUIRED_ENV_VARS.forEach(name => {
   if(!process.env[name] || !process.env[name].length){
